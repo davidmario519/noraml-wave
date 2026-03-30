@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:insideout.fandom.com)",
+      "WebSearch",
+      "WebFetch(domain:disney.fandom.com)",
+      "WebFetch(domain:www.vfxvoice.com)",
+      "WebFetch(domain:screenrant.com)",
+      "WebFetch(domain:renderman.pixar.com)"
+    ]
+  }
+}
