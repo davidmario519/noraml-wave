@@ -90,9 +90,7 @@ function windowResized() {
 
 function keyPressed() {
   if (key === 's' || key === 'S') {
-    // 현재 시간을 YYYYMMDD_HHMMSS 형식의 문자열로 만듭니다.
     const timeStamp = year() + nf(month(), 2) + nf(day(), 2) + "_" + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-    // 파일명에 'screenshot/' 경로를 포함시켜 저장합니다.
     save("screenshot/" + timeStamp + ".png");
   }
 }
